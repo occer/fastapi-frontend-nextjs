@@ -14,6 +14,8 @@ import ListItemText from '@mui/material/ListItemText';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import HomeIcon from '@mui/icons-material/Home';
 import StarIcon from '@mui/icons-material/Star';
+import TocIcon from '@mui/icons-material/Toc';
+import ImageIcon from '@mui/icons-material/Image';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import SettingsIcon from '@mui/icons-material/Settings';
 import SupportIcon from '@mui/icons-material/Support';
@@ -30,8 +32,8 @@ const DRAWER_WIDTH = 240;
 
 const LINKS = [
   { text: '/', href: '/', icon: HomeIcon },
-  { text: '/process_csv', href: '/process_csv', icon: StarIcon },
-  { text: '/process_image', href: '/process_image', icon: StarIcon },
+  { text: '/process_csv', href: '/process_csv', icon: TocIcon },
+  { text: '/process_image', href: '/process_image', icon: ImageIcon },
 ];
 
 const PLACEHOLDER_LINKS = [
