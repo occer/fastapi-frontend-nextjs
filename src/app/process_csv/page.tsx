@@ -57,7 +57,7 @@ const IndexPage: React.FC = () => {
       <Input type="file" onChange={handleFileChange} />
 
       {rawCsvData && (
-        <>
+        <div>
           <Box sx={{ height: 350, width: "100%" }}>
             <DataGrid
               rows={rawCsvData
@@ -77,7 +77,7 @@ const IndexPage: React.FC = () => {
           <Button variant="outlined" onClick={processCSV}>
             Process CSV
           </Button>
-        </>
+        </div>
       )}
 
       {processedCsvData && (
